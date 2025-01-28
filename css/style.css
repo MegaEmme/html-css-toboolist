@@ -1,6 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,6 +24,7 @@ header{
 }
 
 #logo{
+    vertical-align: middle;
     height: 50px;
     width: 50px;
     padding: 12px 0 12px 20px;
@@ -31,6 +32,7 @@ header{
 }
 
 #title{
+    vertical-align: middle;
     background-color: white;
     display: inline-block;
     font-size: 25px;
@@ -73,6 +75,7 @@ border-radius: 3px;
     border-radius: 2px;
     color: #e4e6e9;
     background-color: white;
+    vertical-align: middle;
     font-size: 11px;
 }
 
@@ -89,6 +92,7 @@ border-radius: 3px;
     padding-top: 10px;
     height: 10px;
     width: 10px;
+    border: 1px solid;
     border-radius: 50%;
     border-color: #65c0a9;
     color: #65c0a9;
@@ -103,6 +107,26 @@ border-radius: 3px;
     padding-right: 5px;
     font-size: 8px;
     color: white;
+}
+
+#purple{
+    background-color: #9c72e4;
+}
+
+#green{
+    background-color: #64c0a9;
+}
+
+#yellow{
+    background-color: #f29e33;
+}
+
+#pink{
+    background-color: #d863a1;
+}
+
+#lightgreen{
+    background-color: #b0c926;
 }
 
 #red_1{
