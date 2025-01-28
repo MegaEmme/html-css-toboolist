@@ -25,17 +25,18 @@ header{
 
 #logo{
     vertical-align: middle;
-    height: 50px;
-    width: 50px;
-    padding: 12px 0 12px 20px;
-    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 #title{
+    font-weight: 800;
     vertical-align: middle;
     background-color: white;
     display: inline-block;
-    font-size: 25px;
+    font-size: 35px;
 }
 
    /**** /header ****/
@@ -69,6 +70,7 @@ border-radius: 3px;
 .button_2{
     padding-left: 14px;
     padding-top: 5px;
+    margin-top: 4px;
     height: 25px;
     width: 90px;
     border: 1px solid#e4e6e9;
@@ -87,11 +89,17 @@ border-radius: 3px;
     padding-bottom: 20px;
 }
 
+.events{
+    background-color: white;
+    line-height: 12px;
+}
+
 .check{
     background-color: white;
     height: 20px;
     width: 20px;
-    padding-left: 4px;
+    padding-left: 3px;
+    padding-top: 3px;
     border: 1px solid;
     border-radius: 50%;
     border-color: #65c0a9;
@@ -101,12 +109,13 @@ border-radius: 3px;
 .cat{
     background-color: #45abe9 ;
     border-radius: 10px;
-    padding-top: 6px;
-    padding-bottom: 6px;
     padding-left: 5px;
     padding-right: 5px;
     font-size: 8px;
     color: white;
+    margin-top: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 #purple{
