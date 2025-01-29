@@ -90,6 +90,7 @@ border-radius: 3px;
 }
 
 .events{
+    margin-top: 20px;
     background-color: white;
     line-height: 12px;
 }
@@ -135,6 +136,8 @@ border-radius: 3px;
 }
 
 #lightgreen{
+    width: 40px;
+    padding-left: 10px;
     background-color: #b0c926;
 }
 
