@@ -54,6 +54,7 @@ border-radius: 5px;
 }
 
 .button_1{
+    /* border: none; */
     cursor: pointer;
     margin-top: 14px;
     margin-left: 55px ;
@@ -72,14 +73,14 @@ border-radius: 5px;
     cursor: pointer;
     padding-left: 14px;
     padding-top: 6px;
+    padding-bottom: 6px;
     margin-top: 2px;
     height: 25px;
     width: 90px;
-    border: 2px solid#e4e6e9;
+    border: 1px solid#e4e6e9;
     border-radius: 5px;
     color: #e4e6e9;
     background-color: white;
-    vertical-align: middle;
     font-size: 11px;
 }
 
@@ -88,7 +89,7 @@ border-radius: 5px;
     font-size: 14px;
     background-color: white;
     padding-left:50px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .events{
